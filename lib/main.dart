@@ -17,7 +17,7 @@ import 'locator.dart';
 const platform = const MethodChannel('duosdk.microsoft.dev');
 
 Future main() async {
-  await DotEnv().load('.env');
+  await DotEnv().load();
 
   setupLocator();
   runApp(Platform.isMacOS ? DesktopApp() : SteamClientApp());

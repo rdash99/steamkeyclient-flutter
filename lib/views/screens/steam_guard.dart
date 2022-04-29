@@ -92,7 +92,7 @@ class _SteamGuardState extends State {
                 ),
                 TopItem(
                   icon: Icon(
-                    FluentIcons.lock_24_regular,
+                    FluentIcons.lock_open_24_regular,
                     color: AppColors.SECONDARY_TEXT,
                   ),
                   text: 'My Recovery Code',
